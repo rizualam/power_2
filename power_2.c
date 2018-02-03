@@ -10,10 +10,11 @@ int main(int argc,char *argv[])
 	if(argc==2)
 	{
 	int a=atoi(argv[1]);
+        int i;
 	if((a&(a-1))==0)
 	{
 		printf("its power of 2\n");
-		printf("2^%d = %d\n",a/2,a);
+		
 	}
 	
         }
@@ -23,3 +24,4 @@ int main(int argc,char *argv[])
 	}
  return 0;	
 }
+
